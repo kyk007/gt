@@ -242,7 +242,7 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
 <header class="site-header">
 <nav class="nav">
     <a class="logo" href="#" onclick="showPage('inicio'); return false;">
-        SABORES <span>MAYAS</span>
+        HERENCIA <span>MAYAS</span>
     </a>
 
     <ul class="nav-links">
@@ -254,7 +254,41 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
 </nav>
 </header>
 
+.menu-cartelera {
+    max-width: 1000px;
+    margin: 40px auto 70px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
 
+.cartel {
+    background: #fffaf0;
+    padding: 15px;
+    border-radius: 25px;
+    border: 2px solid #d4932f;
+    box-shadow: 0 10px 25px rgba(59, 36, 28, 0.15);
+    text-align: center;
+}
+
+.cartel h2 {
+    font-family: 'Playfair Display', serif;
+    color: #a9442b;
+    margin-bottom: 15px;
+}
+
+.cartel img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .menu-cartelera {
+        grid-template-columns: 1fr;
+    }
+}
 <!-- =========================================================
                          INICIO
 ========================================================= -->
@@ -268,19 +302,19 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
     <div class="buttons"><a class="btn primary" href="menu.html">Ver nuestro menú</a><a class="btn secondary" href="nosotros.html">Conócenos</a></div>
   </div>
   <div class="hero-image">
-    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85" alt="Platillo de comida">
-    <div class="badge"><strong>Hecho con tradición</strong>Ingredientes locales</div>
+    <img src="imagen1.jpeg" alt="Platillo de comida">
+    <div class="badge"><strong>Hecho con tradición</strong>Ingredientes locales 100% guatemaltecos</div>
   </div>
 </section>
 
 <section class="section">
   <div class="section-title"><div class="eyebrow">Nuestra propuesta</div><h2>Una mesa llena de identidad</h2>
-  <p>Colores inspirados en la artesanía maya, ingredientes de nuestra tierra y recetas pensadas para compartir.</p></div>
+  <p>Colores inspirados en la artesanía maya, ingredientes de nuestra tierra y recetas pensadas para compartir. Nuestos valores son los más destacados.</p></div>
   <div class="cards">
-    <article class="card"><div class="icon">🌽</div><h3>Ingredientes locales</h3><p>Productos seleccionados de nuestra tierra para conservar sabores auténticos.</p></article>
-    <article class="card"><div class="icon">🫓</div><h3>Tradición</h3><p>Recetas inspiradas en la cocina guatemalteca y sus distintas regiones.</p></article>
-    <article class="card"><div class="icon">🌿</div><h3>Frescura</h3><p>Preparaciones cuidadas y llenas de ingredientes frescos.</p></article>
-    <article class="card"><div class="icon">❤️</div><h3>Hospitalidad</h3><p>Queremos que cada visita se sienta como compartir en familia.</p></article>
+    <article class="card"><div class="icon">🌽</div><h3>Verdad, solidaridad y  honestidad</h3><p>Productos seleccionados de nuestra tierra para conservar sabores auténticos.</p></article>
+    <article class="card"><div class="icon"></div><h3>Atención, servicios y amabilidad</h3><p>Recetas inspiradas en la cocina guatemalteca y sus distintas regiones.</p></article>
+    <article class="card"><div class="icon">🌿</div><h3>Limpieza, excelencia e higiene</h3><p>Preparaciones cuidadas y llenas de ingredientes frescos.</p></article>
+    <article class="card"><div class="icon">❤️</div><h3>Orden, responsabilidad y optimismo</h3><p>Queremos que cada visita se sienta como compartir en familia.</p></article>
   </div>
 </section>
 
@@ -368,14 +402,36 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
 ========================================================= -->
 <section id="completo" class="page">
 
-<section class="page-hero"><h1>Cartelera</h1><p>Todo nuestro menú reunido en una sola carta.</p></section>
-<section class="section"><div class="poster"><div class="eyebrow">Sabores · Mayas</div><h1>Sabores Mayas</h1><div class="maya-line">◆ ◆ ◆</div><div class="poster-section"><h2>Entradas</h2><div class="poster-row"><span>Chuchitos de la casa</span><strong>Q 28</strong></div><div class="poster-row"><span>Tostadas guatemaltecas</span><strong>Q 24</strong></div><div class="poster-row"><span>Plátanos con frijol</span><strong>Q 26</strong></div><div class="poster-row"><span>Ensalada de temporada</span><strong>Q 30</strong></div></div><div class="poster-section"><h2>Platillos fuertes</h2><div class="poster-row"><span>Pepián tradicional</span><strong>Q 65</strong></div><div class="poster-row"><span>Kak'ik</span><strong>Q 68</strong></div><div class="poster-row"><span>Jocón de pollo</span><strong>Q 62</strong></div><div class="poster-row"><span>Carne en recado</span><strong>Q 70</strong></div></div><div class="poster-section"><h2>Postres</h2><div class="poster-row"><span>Rellenitos de plátano</span><strong>Q 24</strong></div><div class="poster-row"><span>Torrejas de la casa</span><strong>Q 25</strong></div><div class="poster-row"><span>Mole de plátano</span><strong>Q 27</strong></div><div class="poster-row"><span>Flan de café</span><strong>Q 29</strong></div></div><div class="poster-section"><h2>Bebidas</h2><div class="poster-row"><span>Rosa de Jamaica</span><strong>Q 18</strong></div><div class="poster-row"><span>Horchata</span><strong>Q 20</strong></div><div class="poster-row"><span>Limonada con hierbabuena</span><strong>Q 22</strong></div><div class="poster-row"><span>Café guatemalteco</span><strong>Q 18</strong></div></div><p><strong>Nota:</strong> Los precios son ilustrativos y pueden modificarse.</p></div></section>
+    <section class="page-hero">
+        <h1>Menú</h1>
+        <p>Descubre nuestras diferentes opciones.</p>
+    </section>
 
-<div class="section" style="text-align:center;">
-    <a class="back-menu" onclick="showPage('menu')">← Volver al menú</a>
-</div>
+    <section class="menu-cartelera">
+
+        <div class="cartel">
+            <h2>Entradas</h2>
+            <img src="entradas.jpg" alt="Menú de entradas">
+        </div>
+
+        <div class="cartel">
+            <h2>Platillos fuertes</h2>
+            <img src="fuertes.jpg" alt="Menú de platillos fuertes">
+        </div>
+
+        <div class="cartel">
+            <h2>Postres</h2>
+            <img src="postres.jpg" alt="Menú de postres">
+        </div>
+
+        <div class="cartel">
+            <h2>Bebidas</h2>
+            <img src="bebidas.jpg" alt="Menú de bebidas">
+        </div>
+
+    </section>
+
 </section>
-
 
 <!-- =========================================================
                          NOSOTROS
