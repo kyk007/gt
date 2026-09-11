@@ -230,6 +230,28 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
         grid-template-columns: 1fr;
     }
 }
+
+  .redes-sociales {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.redes-sociales a {
+    color: white;
+    background: #a9442b;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.redes-sociales a:hover {
+    background: #28765c;
+    transform: translateY(-3px);
+}
 /* ====== ESTILOS PARA LAS SECCIONES DE UNA SOLA PÁGINA ====== */
 .page {
     display: none;
@@ -410,7 +432,7 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
 
         <div class="cartel">
             <h2>Entradas</h2>
-            <img src="picar.jpeg" alt="Menú de entradas">
+            <img src="pica.jpeg" alt="Menú de entradas">
         </div>
 
         <div class="cartel">
@@ -420,7 +442,7 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
 
         <div class="cartel">
             <h2>Postres</h2>
-            <img src="postres.jpeg" alt="Menú de postres">
+            <img src="postre.jpeg" alt="Menú de postres">
         </div>
 
         <div class="cartel">
@@ -437,7 +459,7 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
 ========================================================= -->
 <section id="nosotros" class="page">
 
-<section class="page-hero"><h1>Quiénes somos</h1><p>Un restaurante que busca convertir la gastronomía guatemalteca en una experiencia para todos.</p></section>
+<section class="page-hero"><h1>Quiénes somos</h1><p>Somos una empresa que ofrece comida típica guatemalteca con recetas tradicionales e ingredientes frescos a personas que quieren conectar con el sabor de Guatemala.</p></section>
 <section class="section about">
 <img class="about-image" src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=80" alt="Mesa de restaurante">
 <div><div class="eyebrow">Nuestra historia</div><h2>Comida con raíces</h2>
@@ -449,9 +471,8 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
 </div></div></section>
 
 <section class="section"><div class="cards">
-<article class="card"><div class="eyebrow">Misión</div><h3>Servir tradición</h3><p>Ofrecer alimentos de calidad que representen la diversidad de Guatemala, brindando un servicio amable y una experiencia que conecte a nuestros clientes con nuestra cultura.</p></article>
-<article class="card"><div class="eyebrow">Visión</div><h3>Ser inspiración</h3><p>Ser un restaurante reconocido por celebrar la gastronomía guatemalteca de manera innovadora, responsable y accesible.</p></article>
-<article class="card"><div class="eyebrow">Valores</div><h3>Lo que nos guía</h3><p>Respeto, identidad, responsabilidad, hospitalidad, calidad y amor por nuestra tierra.</p></article>
+<article class="card"><div class="eyebrow">Misión</div><h3>Servir tradición</h3><p>Somos una empresa que ofrece comida típica guatemalteca con recetas tradicionales e ingredientes frescos a personas que quieren conectar con el sabor de Guatemala.</p></article>
+<article class="card"><div class="eyebrow">Visión</div><h3>Establecernos en el año 2,030 como líderes en la comida típica a nivel local siendo reconocidos por la calidad de nuestros productos, el excelente servicio y compromiso con nuestras tradiciones.</p></article>
 </div></section>
 
 </section>
@@ -465,10 +486,21 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
 <section class="page-hero"><h1>Contáctanos</h1><p>Estamos listos para recibirte. Escríbenos para consultas, reservas o comentarios.</p></section>
 <section class="section contact">
 <div class="contact-box"><div class="eyebrow">Información</div><h2>Visítanos</h2><br>
-<p><strong>📍 Dirección:</strong> Ciudad de Guatemala, Guatemala</p>
-<p><strong>📞 Teléfono:</strong> +502 0000-0000</p>
-<p><strong>✉️ Correo:</strong> hola@saboresmayas.com</p>
-<p><strong>🕐 Horario:</strong> Lunes a domingo · 11:00 a 21:00</p>
+<div class="redes-sociales">
+
+    <a href="https://www.tiktok.com/@herencia.maya7?_r=1&_t=ZS-99d5MiUGcu8"
+       target="_blank">
+        🎵 TikTok
+    </a>
+
+    <a href="https://www.facebook.com/share/1Ldr7gfvfd/?mibextid=wwXIfr"
+       target="_blank">
+        📘 Facebook
+    </a>
+
+</div>
+<p><strong>✉️ Instragram:</strong> hola@saboresmayas.com</p>
+<p><strong>🕐 WhatsApp:</strong> +502 3792-5785</p>
 </div>
 <div class="contact-box"><div class="eyebrow">Escríbenos</div><h2>Mensaje</h2><br>
 <form class="form" onsubmit="event.preventDefault(); alert('¡Gracias! Este formulario es demostrativo.');">
@@ -489,7 +521,7 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
         <small>Cocina guatemalteca con identidad.</small>
     </div>
 
-    <small>© 2026 Sabores Mayas · Hecho con tradición y corazón</small>
+    <small>© 2026 Herencia Mayas · Hecho con tradición y corazón</small>
 </div>
 </footer>
 
