@@ -195,7 +195,41 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
   .poster h1{font-size:38px}
 }
 
+.menu-cartelera {
+    max-width: 1000px;
+    margin: 40px auto 70px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
 
+.cartel {
+    background: #fffaf0;
+    padding: 15px;
+    border-radius: 25px;
+    border: 2px solid #d4932f;
+    box-shadow: 0 10px 25px rgba(59, 36, 28, 0.15);
+    text-align: center;
+}
+
+.cartel h2 {
+    font-family: 'Playfair Display', serif;
+    color: #a9442b;
+    margin-bottom: 15px;
+}
+
+.cartel img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .menu-cartelera {
+        grid-template-columns: 1fr;
+    }
+}
 /* ====== ESTILOS PARA LAS SECCIONES DE UNA SOLA PÁGINA ====== */
 .page {
     display: none;
@@ -254,41 +288,6 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
 </nav>
 </header>
 
-.menu-cartelera {
-    max-width: 1000px;
-    margin: 40px auto 70px;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-}
-
-.cartel {
-    background: #fffaf0;
-    padding: 15px;
-    border-radius: 25px;
-    border: 2px solid #d4932f;
-    box-shadow: 0 10px 25px rgba(59, 36, 28, 0.15);
-    text-align: center;
-}
-
-.cartel h2 {
-    font-family: 'Playfair Display', serif;
-    color: #a9442b;
-    margin-bottom: 15px;
-}
-
-.cartel img {
-    width: 100%;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-@media (max-width: 700px) {
-    .menu-cartelera {
-        grid-template-columns: 1fr;
-    }
-}
 <!-- =========================================================
                          INICIO
 ========================================================= -->
@@ -411,22 +410,22 @@ footer{background:var(--brown);color:#f7ead4;margin-top:80px}
 
         <div class="cartel">
             <h2>Entradas</h2>
-            <img src="entradas.jpg" alt="Menú de entradas">
+            <img src="picar.jpeg" alt="Menú de entradas">
         </div>
 
         <div class="cartel">
             <h2>Platillos fuertes</h2>
-            <img src="fuertes.jpg" alt="Menú de platillos fuertes">
+            <img src="fuerte.jpeg" alt="Menú de platillos fuertes">
         </div>
 
         <div class="cartel">
             <h2>Postres</h2>
-            <img src="postres.jpg" alt="Menú de postres">
+            <img src="postres.jpeg" alt="Menú de postres">
         </div>
 
         <div class="cartel">
             <h2>Bebidas</h2>
-            <img src="bebidas.jpg" alt="Menú de bebidas">
+            <img src="beibir.jpeg" alt="Menú de bebidas">
         </div>
 
     </section>
